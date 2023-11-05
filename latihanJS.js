@@ -79,6 +79,38 @@ nilaiscore -= 3
 console.log(nilaiscore);
 
 
+// Math Properties and Methods
+
+Math.PI 
+let result = Math.abs (-4.7)
+console.log(result);
+
+let powResult = Math.pow (8, 2) // Pangkat
+console.log(powResult);
+
+let sqrtResult = Math.sqrt (64) // Mencari akar 2 dari suatu nilai
+console.log(sqrtResult);
+
+let cbrtResult = Math.cbrt (8) // (Cube Root)Mencari akar 3 dari suatu nilai
+console.log(cbrtResult);
+
+let roundresult = Math.round (4.7) // Pembulatan Angka 
+console.log(roundresult);
+
+let floResult = Math.floor(4.9)
+console.log(floResult);
+
+let ceilResult = Math.ceil(4.2)
+console.log(ceilResult);
+
+
+// Min => mencari nilai minimal
+let minResult = Math.min(12, 4, 100)
+console.log(minResult);
+
+//  Max => Mencari nilai maksimal 
+let maxResult = Math.max (12, 4, 100)
+console.log(maxResult);
     
 
 
