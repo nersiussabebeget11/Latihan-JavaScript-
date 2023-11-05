@@ -111,6 +111,53 @@ console.log(minResult);
 //  Max => Mencari nilai maksimal 
 let maxResult = Math.max (12, 4, 100)
 console.log(maxResult);
-    
+
+// Mencari Nilai Randaom 
+
+let nilaiRandom = Math.random()
+console.log(nilaiRandom);
+
+let ranMultiTen = nilaiRandom * 10
+console.log(nilaiRandom);
+
+let zeroNine = Math.floor(ranMultiTen)
+console.log(zeroNine);
+
+let oneTen = zeroNine + 1
+console.log(oneTen);
+
+
+// ! Parsing Data Type => Mengubah Tipe Data
+
+// ! (String)
+let dataString = "123"
+let dstring = "123, 45"
+
+// ! ToString
+console.log(typeof(dataString));
+let intResult = parseInt(dataString)
+console.log(typeof(intResult));
+
+// ! ToFloat
+let fltresult = parseFloat(dataString)
+console.log(fltresult);
+floResult = parseFloat(dstring)
+console.log(fltresult);
+  
+
+//  Number 
+let l = 3 
+let d = 3.14 
+
+// String
+let strResult = l.toString()
+console.log(typeof(strResult));
+let str = d.toString()
+console.log(typeof(str));
+
+// float to string
+
+strResult = d.toString()
+console.log(typeof(strResult));
 
 
